@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char c = '0';
+	int c = '0';
 	
-	while (c <= '9')
+	while (c < 10)
 	{
-		putchar(c);
+		putchar(48 + c);
 		c++;
 	}
 
