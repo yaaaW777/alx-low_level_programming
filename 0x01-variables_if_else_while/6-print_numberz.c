@@ -3,11 +3,11 @@
  * main - main block
  * Description: prints all single digit numbers of base 10
  * starting from 0, followed by new line.
- * Return: 0
+ * Return: always 0 (successful)
  */
 int main(void)
 {
-	int c = '0';
+	int c = 0;
 	
 	while (c < 10)
 	{
@@ -17,5 +17,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
-
 }
