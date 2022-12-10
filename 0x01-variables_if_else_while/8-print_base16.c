@@ -2,15 +2,15 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: print prints all the numbers of base 16 in lowercase
+ * Description: print all single digit number of base 10
  * starting from 0, followed by a new line.
- * Return: Always 0 (Success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	char ch;
 
-	for (ch = 'a'; ch <= '9'; ch++)
+	for (ch = '0'; ch <= '9'; ch++)
 	{
 		putchar(ch);
 	}
