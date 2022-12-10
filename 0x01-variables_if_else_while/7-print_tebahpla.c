@@ -1,14 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * main - main block
+ * Description: prints all sigle digit number of base 10
+ * starting from 0, followed by a new line.
+ * Return: Always 0 (successful)
  */
-
 int main(void)
 {
-	char c;
+	int c = 0;
 
-	c = 'z';
-	while
-		(c >= 
+	while (c < 10)
+	{
+		putchar(48 + c);
+		c++;
+	}
+	putchar('\n');
+	return (0);
+}
