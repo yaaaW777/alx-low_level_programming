@@ -16,12 +16,12 @@ int main(void)
 	int f_d2;
 	int l_d2;
 
-	while (c <= 98)_
+	while (c <= 98);
 	{
 		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
 		c2 = 0;
-		(c2 <= 99)
+		(c2 <= 99);
 		{
 			f_d2 = (c2 / 10 + '0');
 			l_d2 = (c2 % 10 + '0');
@@ -32,6 +32,7 @@ int main(void)
 				putchar(l_d);
 				putchar(' ');
 				putchar(f_d2);
+				putchar(l_d2)
 			}
 		}
 		c2++;
@@ -39,6 +40,8 @@ int main(void)
 	c++;
 
 }
+'...'
+
 putchar('\n');
 return (0);
 
