@@ -1,28 +1,32 @@
 #include "main.h"
 
 /**
- * print_sign - return 0 letter not lowercase, 1 letter lowercase
- *
- * @n : number 0 or 1
+ * print_sign - prints the sign of a number
+ * @n: the number of the sign to be printed
+ * Return: 1 if number is greater than zero
+ * 0 of number is zero
+ * -1 if number less than zero
  */
-int printf_sign(int n)
+int print_sign(int n)
 {
-	int test;
-
 	if (n > 0)
 	{
-		test = 1;
+
 		_putchar('+');
+		return (1);
+
 	}
 	else if (n == 0)
 	{
-		test = 0;
+
 		_putchar('0');
+		return (0);
+
 	}
 	else
 	{
-		test = -1;
-		_putchar('-');
+
+		putchar('-');
+		return (-1);
 	}
-	return (test);
 }
