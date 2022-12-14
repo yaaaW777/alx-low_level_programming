@@ -45,17 +45,4 @@ int main(void)
 		}
 		printf("%lu", f1);
 
-		tmp = (f1 + f2) % mx;
-		tmpo = f1o + f2o + (f1 + f2) / mx;
-		f1o = f2;
-		f2 = tmp;
-		f2o = tmpo;
-
-		if (i != 98)
-			printf(",");
-		else
-			printf("\n");
-		i++;
-	}
-	return (0);
-
+		tmp = (f1 + f2) %
