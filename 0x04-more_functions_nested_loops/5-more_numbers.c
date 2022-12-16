@@ -1,21 +1,21 @@
 #include "main.h"
-/**
- * more_numbers - print more numbers
- * Return: no return
- */
 
+/**
+ * more_numbers - Prints the numbers 0-14 ten times.
+ */
 void more_numbers(void)
 {
-	int i; j;
+	int n, count;
 
-	for (i = 1; i <= 10; i++)
+	for  (count = 0; count <= 9; count++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (n = 0; n <= 14; n++)
 		{
-			if (j >= 10)
-				putchar('1');
-
-			putchar(j % 10 + '0');
+			if (n > 9)
+			{
+			putchar((n / 10) + '0');
+			}
+			putchar((n % 10) + '0');
 		}
 		putchar('\n');
 	}
