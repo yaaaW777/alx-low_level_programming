@@ -5,7 +5,7 @@
  * Return: always 0 (success)
  */
 
-int print_diagonal(int n);
+void print_diagonal(int n);
 {
 	int line, gap;
 
@@ -15,7 +15,7 @@ int print_diagonal(int n);
 		{
 			for (gap = 0; gap <= line; gap++)
 			{
-				_putchar(' ')
+				_putchar(' ');
 			}
 			_putchar('\\');
 			if (line == n - 1)
