@@ -30,6 +30,5 @@ int _atoi(char *s)
 		}
 }
 sigro *= -1;
-
 return (n * sigro);
 }
