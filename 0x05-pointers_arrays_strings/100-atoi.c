@@ -29,6 +29,7 @@ int _atoi(char *s)
 			i++;
 		}
 }
-sigro * = -1;
+sigro *= -1;
+
 return (n * sigro);
 }
