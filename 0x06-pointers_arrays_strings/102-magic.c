@@ -10,7 +10,6 @@ a[2] = 1024;
 
 p = &n;
 /*
- * magic: add one line to this code to print a[2] = 98
 * write your line of code here...
 * Remember:
 * - you are not allowed to use a
