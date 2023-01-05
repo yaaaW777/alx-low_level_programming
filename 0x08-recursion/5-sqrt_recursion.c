@@ -20,11 +20,11 @@ int _sqrt_recursion(int n)
  */
 int _sqrt(int n, int i)
 {
-	int square = 1 * 1;
+	int square = i * i;
 
 	if  (square > n)
 		return (-1);
 	if (square == n)
 		return (i);
-	return (_sqrt(n, 1 + 1));
+	return (_sqrt(n, i + 1));
 }
