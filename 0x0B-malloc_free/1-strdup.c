@@ -8,7 +8,7 @@
  * duplicated string.
  * However, Returns NULL if str = NULL.
  */
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 int size, i;
 char *ptr;
