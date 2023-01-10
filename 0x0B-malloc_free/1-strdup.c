@@ -18,8 +18,7 @@ return (NULL);
 
 /*Determining entered lenght size*/
 
-for (size = 0; str[size] != '\0')
-size++;
+for (size = 0; str[size] != '\0'; size++)
 
 ptr = (char *) malloc((size + 1) * sizeof(char));
 
