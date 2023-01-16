@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
 #include "dog.h"
 
 /**
@@ -17,16 +18,16 @@ return;
 else
 {
 if (d->name == NULL)
-printf("Name; (nil)\n");
+printf("Name: (nil)\n");
 else
-printf(("Name; %s\n", d->name);
+printf("Name: %s\n", d->name);
 
-printf("Age; %f\n", d->age);
+printf("Age: %f\n", d->age);
 
 if (d->owner == NULL)
 
-printf("Owner; (nil)\n");
+printf("Owner: (nil)\n");
 else
-rintf("Owner; %s\n", d->owner);
+printf("Owner: %s\n", d->owner);
 }
 }
