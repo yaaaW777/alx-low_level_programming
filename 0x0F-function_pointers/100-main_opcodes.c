@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints its  own opcodes
- * @argv: number of arguments
+ * main - prints its own opcodes
+ * @argc: number of arguments
  * @argv: array of arguments
  *
  * Return: Always 0 (Success)
@@ -29,8 +29,9 @@ int main(int argc, char *argv[])
 		if (i == bytes - 1)
 		{
 			printf("%02hhx\n", arr[i]);
+			break;
 		}
-		printf("%02hhx\n", arr[i]);
+		printf("%02hhx", arr[i]);
 	}
 	return (0);
 }
